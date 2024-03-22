@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<malloc.h>
 int main()
 {
 	int i,*ptr;
@@ -11,7 +13,7 @@ int main()
 	{
 		for(i=0;i<5;i++)
 		{
-			printf("enter the element %d",i+1);
+			printf("enter the element %d   :",i+1);
 			scanf("%d",&ptr[i]);
 		}
 	}
