@@ -3,17 +3,18 @@
 #define SIZE 10
 int main()
 	int arr[SIZE];
-	int i,j;
+	int i,j,temp;
 	for (i=0;i<SIZE;i++)
 	{
 		printf("enter the element %d : ",i+1);
 		scanf("%d",&arr[i]);
 	}
-	printf("original array is : ");
+	printf("original array is : \n");
 	for(i=0;i<SIZE;i++)
 	{
 		printf("%d\t",arr[i]);
 	}
+	print("\n");
 	printf("after ascending order the array is : \n");
 	for(i=0;i<SIZE;i++)
 	{
