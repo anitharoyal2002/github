@@ -33,7 +33,7 @@ int main()
 		for(j=0;j<COL2;j++)
 		{
 			mat3[i][j]=0;
-			for(k=0;k<COL2;k++)
+			for(k=0;k<COL1;k++)
 			{
 				mat3[i][j] +=mat1[i][k]*mat2[k][j];
 			}
@@ -43,7 +43,7 @@ int main()
 	printf("the multiplication of matrix is :\n");
 	for(i=0;i<ROW1;i++)
 	{
-		for(j=0;j<COL1;j++)
+		for(j=0;j<COL2;j++)
 		{
 			printf("%5d",mat3[i][j]);
 		}
